@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Glyphter";
+    src: url('../fonts/Glyphter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.glyph {
+    font-family: "Glyphter";
+    font-size: 9px;
+    color: #8D8D8D;
+}
+.prev .glyph, .next p {
+    float: left;
+    margin-right: 10px;
+}
+.prev .glyph {
+    margin-top: 3px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.container-small {
+    margin-left: 367px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+[class^="col-"] {
+    float: left;
+}
+@media (min-width: 1000px) {
+    .col-md-2 {
+        width: 16.66666666%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+    .col-md-5 {
+        width: 41.66666666%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+    .col-md-8 {
+        width: 66.66666666%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+}
+.logo {
+    margin-top: 37px;
+}
+.menu {
+    list-style: none;
+    margin-left: 33px;
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu li a {
+    display: block;
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    padding: 43px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu li a:hover {
+    text-decoration: none;
+    color: #10C9C3;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+main .row > .col-md-6:first-child {
+    background: #F6F6F6;
+}
+.light-br {
+    font-family: "Montserrat";
+    font-size: 38px;
+    line-height: 84px;
+    padding-top: 84px;
+    padding-bottom: 6px;
+}
+.light-desc, .cattle, .client {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    width: 436px;
+}
+.cattle {
+    padding-top: 24px;
+    padding-bottom: 44px;
+}
+.client {
+    line-height: 30px;
+}
+.client span {
+    font-weight: 700;
+    color: #171717;
+}
+.container-small .client:last-child {
+    padding-bottom: 99px;
+}
+.breakfest .row > .col-md-6:last-child {
+    background: url(../images/breakfest.jpg) no-repeat 50% / cover;
+    padding-bottom: 574px;
+}
+.empty {
+    width: 1px;
+    height: 1px;
+}
+.middle {
+    width: 16px;
+    margin: 0 auto;
+}
+.square {
+    width: 6px;
+    height: 6px;
+    margin-bottom: 4px;
+    background: black;
+    float: left;
+}
+.middle .square:nth-child(2), .middle .square:last-child {
+    margin-left: 4px;
+}
+.project {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.prev, .next {
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1D1D1D;
+}
+.next {
+    float: right;
+}
+.footer {
+    background: #141414;
+    color: #BCBCBC;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.piroll-design {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: white;
+    padding-bottom: 23px;
+}
+.copyright, .design-by, .email, .phone, .footer-nav li a, .socials li a {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    line-height: 24px;
+}
+.footer-nav li a, .socials li a {
+    display: block;
+    text-decoration: none;
+    color: #BCBCBC;;
+}
+.footer-nav, .socials {
+    list-style: none;
+}
+.footer-nav li a:hover, .socials li a:hover {
+    text-decoration: none;
+    color: #BCBCBC;
+}
+.socials {
+    float: right;
+}
+.footer-nav {
+    display: inline-block;
+    margin-left: 55px;
+}

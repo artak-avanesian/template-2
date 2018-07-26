@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+[class^="col-"] {
+    float: left;
+}
+@media (min-width: 1000px) {
+    .col-md-2 {
+        width: 16.66666666%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+    .col-md-5 {
+        width: 41.66666666%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+    .col-md-8 {
+        width: 66.66666666%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+}
+.logo {
+    margin-top: 37px;
+}
+.menu {
+    list-style: none;
+    margin-left: 33px;
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu li a {
+    display: block;
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    padding: 43px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu li a:hover {
+    text-decoration: none;
+    color: #10C9C3;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+main {
+	background: #F6F6F6;
+}
+.home-name {
+	font-family: "Montserrat";
+	font-size: 38px;
+	line-height: 84px;
+	text-align: center;
+	padding-top: 78px;
+}
+.home-description {
+	font-family: "Nunito Sans";
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	margin: 0 auto;
+	width: 512px;
+	padding-bottom: 92px;
+	padding-top: 5px;
+	color: #787878;
+}
+.home-block {
+	height: 420px;
+}
+.home-block-1 {
+	background: url(../images/letter.jpg) no-repeat 50% / cover;
+}
+.home-block-2 {
+	background: url(../images/glass.jpg) no-repeat 50% / cover;
+}
+.home-block-3 {
+	background: url(../images/label.jpg) no-repeat 50% / cover;
+}
+.home-block-4 {
+	background: url(../images/iphone.jpg) no-repeat 50% / cover;
+}
+.home-block-5 {
+	background: url(../images/shop-bag2.jpg) no-repeat 50% / cover;
+}
+.home-block-6 {
+	background: url(../images/bottle.jpg) no-repeat 50% / cover;
+}
+.home-block-7 {
+	background: url(../images/shop-bag.jpg) no-repeat 50% / cover;
+}
+.home-block-8 {
+	background: url(../images/honey.jpg) no-repeat 50% / cover;
+}
+.home-block-9 {
+	background: url(../images/pack.jpg) no-repeat 50% / cover;
+}
+.home-block-10 {
+	background: url(../images/book.jpg) no-repeat 50% / cover;
+}
+.home-block-11 {
+	background: url(../images/she.jpg) no-repeat 50% / cover;
+}
+.home-block-12 {
+	background: url(../images/card.jpg) no-repeat 50% / cover;
+}
+.home-block-bg {
+	width: 100%;
+	height: 100%;
+	background: rgba(16, 201, 195, 0.8) url(../images/look3.jpg) no-repeat 50% 50%;
+	display: none;
+}
+.home-block-bg-10 {
+	background: rgba(16, 201, 195, 0.8) url(../images/look4.jpg) no-repeat 50% 50%;
+}
+.home-block:hover .home-block-bg {
+	display: block;
+	transition: 3s;
+}
+.footer {
+    background: #141414;
+    color: #BCBCBC;
+    padding-bottom: 95px;
+}
+.piroll-design {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: white;
+    padding-bottom: 23px;
+}
+.copyright, .design-by, .email, .phone, .footer-nav li a, .socials li a {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    line-height: 24px;
+}
+.footer-nav li a, .socials li a {
+    display: block;
+    text-decoration: none;
+    color: #BCBCBC;;
+}
+.footer-nav, .socials {
+    list-style: none;
+}
+.footer-nav li a:hover, .socials li a:hover {
+    text-decoration: none;
+    color: #BCBCBC;
+}
+.socials {
+    float: right;
+}
+.footer-nav {
+    display: inline-block;
+    margin-left: 55px;
+}
+.piroll-design, .email, .footer-nav, .socials {
+	padding-top: 95px;
+}

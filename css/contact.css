@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+[class^="col-"] {
+    float: left;
+}
+@media (min-width: 1000px) {
+    .col-md-2 {
+        width: 16.66666666%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+    .col-md-5 {
+        width: 41.66666666%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+    .col-md-8 {
+        width: 66.66666666%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+}
+.logo {
+    margin-top: 37px;
+}
+.menu {
+    list-style: none;
+    margin-left: 33px;
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu li a {
+    display: block;
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    padding: 43px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu li a:hover {
+    text-decoration: none;
+    color: #10C9C3;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+main {
+    background: #F5F5F5;
+    padding-top: 96px;
+    padding-bottom: 100px;
+}
+.contact-info {
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+.contact-desc, .info {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    width: 365px;
+}
+.contact-desc {
+    padding-top: 29px;
+    padding-bottom: 25px;
+}
+.info {
+    padding-bottom: 12px;
+}
+.info span {
+    font-weight: 700;
+    color: #171717;
+}
+form {
+    width: 670px;
+    float: right;
+}
+input::placeholder, textarea::placeholder {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    color: #787878;
+}
+input[type="text"]:first-child, input[type="email"] {
+    width: 320px;
+    margin-bottom: 30px;
+}
+input[type="text"]:first-child {
+    margin-right: 26px;
+}
+input, textarea {
+    border: none;
+    padding-left: 20px;
+}
+input[type="text"]:nth-child(3), textarea {
+    width: 100%;
+    margin-bottom: 30px;
+}
+input {
+    height: 50px;
+}
+textarea {
+    padding-top: 15px;
+}
+form button {
+    width: 180px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    border: none;
+    background: #10C9C3;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.map {
+    margin-top: 100px;
+    height: 470px;
+    background: url(../images/map.jpg);
+}
+.footer {
+    background: #141414;
+    color: #BCBCBC;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.piroll-design {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: white;
+    padding-bottom: 23px;
+}
+.copyright, .design-by, .email, .phone, .footer-nav li a, .socials li a {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    line-height: 24px;
+}
+.footer-nav li a, .socials li a {
+    display: block;
+    text-decoration: none;
+    color: #BCBCBC;;
+}
+.footer-nav, .socials {
+    list-style: none;
+}
+.footer-nav li a:hover, .socials li a:hover {
+    text-decoration: none;
+    color: #BCBCBC;
+}
+.socials {
+    float: right;
+}
+.footer-nav {
+    display: inline-block;
+    margin-left: 55px;
+}

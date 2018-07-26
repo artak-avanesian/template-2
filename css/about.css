@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+[class^="col-"] {
+    float: left;
+}
+@media (min-width: 1000px) {
+    .col-md-2 {
+        width: 16.66666666%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+    .col-md-5 {
+        width: 41.66666666%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+    .col-md-8 {
+        width: 66.66666666%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+}
+.logo {
+    margin-top: 37px;
+}
+.menu {
+    list-style: none;
+    margin-left: 33px;
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu li a {
+    display: block;
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    padding: 43px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu li a:hover {
+    text-decoration: none;
+    color: #10C9C3;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+.about-name {
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 38px;
+    line-height: 48px;
+    padding-top: 100px;
+}
+.about-description {
+    color: white;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 512px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.amelia {
+    background: url(../images/girl.jpg) no-repeat 50% 25% / cover;
+}
+.amelia-bg {
+    background: rgba(0, 0, 0, 0.6);
+}
+.web-site-info {
+    background: #10C9C3;
+    color: white;
+}
+.number, .info {
+    font-family: "Montserrat";
+}
+.number {
+    font-size: 18px;
+    padding-top: 96px;
+    padding-bottom: 8px;
+}
+.info {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 96px;
+}
+[class^="info-block-"] img {
+    float: left;
+    margin-top: 100px;
+    margin-right: 28px;
+}
+.info-block-2, .info-block-3, .info-block-4 {
+    margin-left: 21px;
+}
+.about-me img {
+    padding-bottom: 137px;
+}
+.about-me .row .col-md-6:first-child {
+    background: url(../images/portrait.jpg) no-repeat 50% 50% / cover;
+    padding-bottom: 577px;
+}
+.empty {
+    width: 1px;
+    height: 1px;
+}
+.about-me-name {
+    padding-top: 137px;
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 29px;
+}
+.about-me-desc-1, .about-me-desc-2 {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    width: 450px;
+    text-align: justify;
+}
+.about-me-desc-1 {
+    padding-bottom: 24px;
+}
+.about-me-desc-2 {
+    padding-bottom: 33px;
+}
+.about-me .row > .col-md-6:last-child {
+    padding-left: 85px;
+    background: #F5F5F5;
+}
+.need {
+    padding-bottom: 100px;
+}
+.need-name {
+    font-family: "Montserrat";
+    font-size: 30px;
+    line-height: 84px;
+    text-align: center;
+    padding-top: 74px;
+}
+.need-decsription {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    text-align: center;
+    margin: 0 auto;
+    width: 537px;
+    padding-top: 4px;
+    padding-bottom: 34px;
+}
+.need a {
+    width: 180px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background: #10C9C3;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+.need a:hover {
+    text-decoration: none
+}
+.footer {
+    background: #141414;
+    color: #BCBCBC;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.piroll-design {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: white;
+    padding-bottom: 23px;
+}
+.copyright, .design-by, .email, .phone, .footer-nav li a, .socials li a {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    line-height: 24px;
+}
+.footer-nav li a, .socials li a {
+    display: block;
+    text-decoration: none;
+    color: #BCBCBC;;
+}
+.footer-nav, .socials {
+    list-style: none;
+}
+.footer-nav li a:hover, .socials li a:hover {
+    text-decoration: none;
+    color: #BCBCBC;
+}
+.socials {
+    float: right;
+}
+.footer-nav {
+    display: inline-block;
+    margin-left: 55px;
+}
